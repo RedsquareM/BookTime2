@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/splash_screen"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/booksplashscren"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_1"
+        android:text="BOOK TIME"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="-80dp"
+        android:textSize="27dp" />
+
+
+
+</LinearLayout>
